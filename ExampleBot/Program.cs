@@ -7,10 +7,10 @@ namespace SC2Sharp
     {
         // Settings for your bot.
         private static Bot bot = new Bot();
-        private static Race race = Race.Terran;
+        private static Race race = Race.Protoss;
 
         // Settings for single player mode.
-        private static string mapName = @"InterloperLE.SC2Map";
+        private static string mapName = @"HardwireAIE.SC2Map";
         private static Race opponentRace = Race.Random;
         private static Difficulty opponentDifficulty = Difficulty.VeryEasy;
 
